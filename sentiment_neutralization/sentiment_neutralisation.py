@@ -1,6 +1,8 @@
-import pandas as pd
+"""Sentiment Neutralisation Code."""
+
 import os
 import pickle
+import pandas as pd
 import numpy as np
 from nltk.corpus import stopwords
 from keras.preprocessing.sequence import pad_sequences
@@ -10,12 +12,13 @@ from sklearn.preprocessing import OneHotEncoder
 import neutralisation_params
 
 def main():
+    """Function for removing sentiment words from a given text"""
 
     data = pd.read_csv('../data/dataSampleTest.csv')
     data.columns = ["sarcasmText", "text"] # Keeping only the neccessary columns
 
     stop = stopwords.words('english')
-    data['text_without_stopwords'] = data['text'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop)]))
+    data['text_without_stopwords'] = data['text'].apply(lambda x: ' '.join([word for word in x.split() if word not in stop]))
     data['text_without_stopwords'] = data['text_without_stopwords'].apply(lambda x: x.lower())
     data['text'] = data['text'].apply(lambda x: x.lower())
 
@@ -32,69 +35,65 @@ def main():
     print(X.shape)
 
     max_features = neutralisation_params.max_features
-    enc = OneHotEncoder(handle_unknown='ignore',n_values=max_features,sparse=False)
-    X_train_one_hot = enc.fit_transform(X)
-    X_train_one_hot = np.reshape(X_train_one_hot,(X.shape[0],maxlen,max_features))
+    enc = OneHotEncoder(handle_unknown='ignore', n_values=max_features, sparse=False)
+    x_train_one_hot = enc.fit_transform(X)
+    x_train_one_hot = np.reshape(x_train_one_hot, (X.shape[0], maxlen, max_features))
 
-    '''
-    Extract features from the data
-    '''
     model_name = neutralisation_params.model_name
-    TRAINED_MODEL = os.path.join(model_dir, model_name) + "_final.hdf5"
+    trained_model = os.path.join(model_dir, model_name) + "_final.hdf5"
 
     # SAVE_FEATURES_PREFIX = neutralisation_params.SAVE_FEATURES_PREFIX
-    model = load_model(TRAINED_MODEL,custom_objects={'SeqSelfAttention': SeqSelfAttention})
-    batch_size = neutralisation_params.batch_size
+    model = load_model(trained_model, custom_objects={'SeqSelfAttention': SeqSelfAttention})
+    # batch_size = neutralisation_params.batch_size
 
     feat_dir = neutralisation_params.feature_dir
-    if(not os.path.exists(feat_dir)):
+    if not os.path.exists(feat_dir):
         os.makedirs(feat_dir)
     print(model.summary())
 
     dense_model = Model(inputs=model.input, outputs=model.get_layer('seq_self_attention_1').output)
     dense_feature, attn_weight = dense_model.predict(X)
-    attn_weight_collapsed = np.zeros((attn_weight.shape[0], attn_weight.shape[1]))
+    # attn_weight_collapsed = np.zeros((attn_weight.shape[0], attn_weight.shape[1]))
 
-    newDataAll = np.zeros((attn_weight.shape[0], attn_weight.shape[1]))
+    new_data_all = np.zeros((attn_weight.shape[0], attn_weight.shape[1]))
     for i in range(0, attn_weight.shape[0]):
-        currentMaxArray = attn_weight[i].max(0)
-        tempList = []
-        for k in range(0, currentMaxArray.shape[0]):
-            if(currentMaxArray[k] != 0):
-                tempList.append(currentMaxArray[k])
-        lenToDivide = len(tempList)
-        tempArr = np.array(tempList)
-        current_mean = np.mean(tempList)
-        current_std = np.std(tempList)
-        numHigher = current_mean + 1*(current_std)
-        numLower = current_mean - 1.5*(current_std)
-        highOutlier = (currentMaxArray <= numHigher ).astype(int)
-        lowOutlier = (currentMaxArray > numLower).astype(int)
-        contextOnes = highOutlier*lowOutlier
-        newData = X[i] * contextOnes
-        newDataAll[i] = newData
+        current_max_array = attn_weight[i].max(0)
+        temp_list = []
+        for k in range(0, current_max_array.shape[0]):
+            if current_max_array[k] != 0:
+                temp_list.append(current_max_array[k])
+
+        current_mean = np.mean(temp_list)
+        current_std = np.std(temp_list)
+        num_higher = current_mean + 1*(current_std)
+        num_lower = current_mean - 1.5*(current_std)
+        high_outlier = (current_max_array <= num_higher).astype(int)
+        low_outlier = (current_max_array > num_lower).astype(int)
+        context_ones = high_outlier*low_outlier
+        new_data = X[i] * context_ones
+        new_data_all[i] = new_data
 
     def sequence_to_text(list_of_indices):
         words = [reverse_word_map.get(letter) for letter in list_of_indices]
-        return(words)
+        return words
 
-    my_texts = list(map(sequence_to_text, newDataAll))
-    correctSent = list(data["text"])
-    allSentences = []
-    newTrainingOutput = []
+    my_texts = list(map(sequence_to_text, new_data_all))
+    correct_sent = list(data["text"])
+    all_sentences = []
+    new_training_output = []
     for i in range(0, len(my_texts)):
-        eachNew = [x for x in my_texts[i] if x is not None]
-        eachNew = " ".join(eachNew)
-        if(eachNew != ""):
-            rem = correctSent[i]
-            newTrainingOutput.append(rem)
-            allSentences.append(eachNew)
+        each_new = [x for x in my_texts[i] if x is not None]
+        each_new = " ".join(each_new)
+        if each_new != "":
+            rem = correct_sent[i]
+            new_training_output.append(rem)
+            all_sentences.append(each_new)
         else:
-            print(i, correctSent[i])
-    len(allSentences), len(newTrainingOutput)
+            print(i, correct_sent[i])
 
-    for i in range(0, len(newTrainingOutput)):
-        print(allSentences[i], " ----------- ", newTrainingOutput[i])
+    print(len(all_sentences), len(new_training_output))
+    for i in range(0, len(new_training_output)):
+        print(all_sentences[i], " ----------- ", new_training_output[i])
 
 if __name__ == '__main__':
 	main()

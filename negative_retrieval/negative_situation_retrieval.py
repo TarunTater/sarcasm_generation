@@ -1,15 +1,8 @@
-import re
-import time
-import json
-from types import NoneType
-import requests
-import numpy as np
-import pandas as pd
-import pickle
-#Lucene
-import os
-import lucene
+"""Negative Situation Retrieval Code"""
 
+import time
+import pandas as pd
+import lucene
 from java.io import File
 from org.apache.lucene.analysis.standard import StandardAnalyzer
 from org.apache.lucene.document import Document, Field, StringField, TextField, StoredField, FieldType
@@ -23,96 +16,71 @@ from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene import document, store, util
 from java.nio.file import Paths
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.tag import pos_tag
 
-import pandas as pd
+def main():
+    """Function to index negative situations and retrive based on input sentence"""
 
-allSentDf = pd.read_csv("../data/sentiment_data.csv")
+    all_sent_df = pd.read_csv("../data/sentiment_data.csv")
+    neg = all_sent_df[all_sent_df["label"] == 1]
+    all_neg_phrases = list(neg["phrase"])
+    with open("../data/negSituations.txt", "r") as fpointer:
+        all_neg_situations = fpointer.readlines()
 
-with open("negSituations.txt", "r") as f:
-    allNegSituations = f.readlines()
+    all_neg_situations = map(lambda s: s.strip(), all_neg_situations)
+    all_neg_phrases = map(lambda s: s.strip(), all_neg_phrases)
 
-neg = allSentDf[allSentDf["label"] == 1]
+    lucene.initVM()
+    analyzer = StandardAnalyzer()
+    path = Paths.get('negSituationIndex')
+    directory = SimpleFSDirectory(path)
+    writer_config = IndexWriterConfig(analyzer)
+    writer = IndexWriter(directory, writer_config)
 
-allNegPhrases = list(neg["phrase"])
+    print(writer.numDocs())
+    # INDEXING ALL DOCUMENTS/ARTICLES IN THE CORPUS
+    for each in all_neg_situations:
+        document = Document()
+        document.add(Field("negativeSituations", each, TextField.TYPE_STORED))
+        writer.addDocument(document)
 
-with open("../data/negSituations.txt", "r") as f:
-    allNegSituations = f.readlines()
+    print(writer.numDocs())
+    writer.close()
 
-allNegSituations = map(lambda s: s.strip(), allNegSituations)
-allNegPhrases = map(lambda s: s.strip(), allNegPhrases)
+    analyzer = StandardAnalyzer()
+    reader = DirectoryReader.open(directory)
+    searcher = IndexSearcher(reader)
 
-lucene.initVM()
-    # ANALYZER
-analyzer = StandardAnalyzer()
+    # QUERYING FOR A QUESTION
+    with open("../data/negative_situation_to_retrieve.txt", "r") as fpointer:
+        all_test_sent = fpointer.readlines()
+    all_test_sent = map(lambda s: s.strip(), all_test_sent)
 
-#Directory
-path = Paths.get('negSituationIndex')
-directory = SimpleFSDirectory(path)
+    query_parser = QueryParser("negativeSituations", analyzer)
 
-writerConfig = IndexWriterConfig(analyzer)
-writer = IndexWriter(directory, writerConfig)
+    total_num = 0
+    tic = time.time()
+    all_ans = []
+    for each in all_test_sent:
+        total_num = total_num + 1
+        if total_num % 1000 == 0:
+            print(total_num, time.time() - tic)
 
-print writer.numDocs()
-# INDEXING ALL DOCUMENTS/ARTICLES IN THE CORPUS
-for each in allNegSituations:
-#     print(each)
-    document = Document()
-    document.add(Field("negativeSituations", each, TextField.TYPE_STORED))
-    writer.addDocument(document)
+        query = query_parser.parse(query_parser.escape(each))
+        hits = searcher.search(query, 3)
+        docs_scores = [hit.score for hit in hits.scoreDocs]
+        current_ans = []
+        if docs_scores != []:
+            for hit in hits.scoreDocs:
+                doc_t = searcher.doc(hit.doc)
+                doc_text = doc_t.get("negativeSituations")
+                current_ans.append(doc_text)
+        else:
+            continue
 
-print writer.numDocs()
-writer.close()
+        current_ans = list(set(current_ans))
+        all_ans.append(current_ans)
 
+    print(all_ans)
 
-analyzer = StandardAnalyzer()
-
-#Directory
-path = Paths.get('negSituationIndex')
-directory = SimpleFSDirectory(path)
-reader = DirectoryReader.open(directory)
-searcher = IndexSearcher(reader)
-
-# QUERYING FOR A QUESTION
-
-
-with open("../data/test.txt", "r") as f:
-    allTestSent = f.readlines()
-allTestSent = map(lambda s: s.strip(), allTestSent)
-
-
-queryParser = QueryParser("negativeSituations", analyzer)
-num= 0
-numNo = 0
-totalNum = 0
-ans = []
-allAns = []
-for each in allTestSent:
-    totalNum = totalNum + 1
-    if(totalNum % 1000 ==0):
-        print(totalNum, time.time() - tic )
-#     print("***", each, "******")
-    query = queryParser.parse(queryParser.escape(each))
-    hits = searcher.search(query, 3)
-
-    docsScores = [hit.score for hit in hits.scoreDocs]
-#     print docsScores
-    currentAns = []
-    currentAns.append(each)
-    if(docsScores != []):
-        num = num + 1
-        ans.append(1)
-        for hit in hits.scoreDocs:
-            doc_id = hit.doc
-            #print doc_id, hit.toString()
-            docT = searcher.doc(hit.doc)
-            docText = docT.get("negativeSituations")
-#             currentAns.append(docText)
-
-#             print docText
-    else:
-        numNo = numNo + 1
-        ans.append(0)
-    allAns.append(currentAns)
+if __name__ == '__main__':
+	main()
