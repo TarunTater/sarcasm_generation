@@ -1,0 +1,12 @@
+DATA_DIR = "../data/"
+RESULT_DIR = "../models/"
+embed_dim = 128
+max_features = 20000
+maxlen = 30
+model_version = "v1"
+batch_size = 32
+epochs = 10
+token_file_path = "token_" + model_version
+model_name = "dummy_model_" + model_version + "_embed_" + str(embed_dim) + "_batch_size_" + str(batch_size)
+SAVE_FEATURES_PREFIX = model_name + "_features_"
+feature_dir = "../features/"
