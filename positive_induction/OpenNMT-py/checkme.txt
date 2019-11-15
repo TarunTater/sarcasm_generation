@@ -1,0 +1,797 @@
+
+SENT 1: ['the', 'and', 'my', 'car', '...', 'to', 'week']
+PRED 1: daycare chivalry riddler car exploding ls good week
+PRED SCORE: -10.6089
+
+SENT 2: ['money', 'to', 'people', 'who', 'dont', 'it']
+PRED 2: money favours people teasers dont slave good
+PRED SCORE: -7.6131
+
+SENT 3: ['to', 'republican']
+PRED 3: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 4: ['ever', 'in', 'the', 'two', 'lo', 'l']
+PRED 4: ever kayaking indians two lo l happy
+PRED SCORE: -3.7412
+
+SENT 5: ['rt', 'and', 'told', 'it', 'painting', 'and', 'it']
+PRED 5: remind blossoms told bombarded painting seymour riddick happy
+PRED SCORE: -10.8409
+
+SENT 6: ['when', 'your', 'parent', 'where', 'your', 'money']
+PRED 6: regard collateral parent pauses seymour owed money
+PRED SCORE: -7.4360
+
+SENT 7: ['people', 'this']
+PRED 7: people meghan happy
+PRED SCORE: -3.6549
+
+SENT 8: ['in', 'biochemistry', 'and', 'year', 'at', 'pizza', 'before', 'could', 'finally', 'lab']
+PRED 8: daycare collateral todd year truthfully pizza attached could finally lab lol
+PRED SCORE: -10.8322
+
+SENT 9: ['oh', 'how', 'at', '4:30']
+PRED 9: oh pharmacology compiler philip happy
+PRED SCORE: -4.8949
+
+SENT 10: ['of', 'homework', '&']
+PRED 10: likened homework rami love
+PRED SCORE: -4.7106
+
+SENT 11: ['omg', 'why', 'he', 'to', 'the', 'gesture', 'so']
+PRED 11: omg hostel compiler philip ankles ls assassin happy
+PRED SCORE: -7.7948
+
+SENT 12: ['thank', 'you', 'for', 'hour', 'and', '40', 'to', 'everything', 'the', 'slide', 'of']
+PRED 12: thank heavens repairing camden hour tougher ls ez everything reg cramps riddick
+PRED SCORE: -14.8946
+
+SENT 13: ['ii', 'to', 'hear', 'more', 'that']
+PRED 13: ii yellowstone hear philip seymour amazing
+PRED SCORE: -6.3794
+
+SENT 14: ['he', 'can', 'to', 'attend', 'the', 'they', 'can', 'him', 'if', 'he']
+PRED 14: applauding abbreviation todd good info seymour ls ez moral citizenship cheney
+PRED SCORE: -19.3207
+
+SENT 15: ['my', 'to', 'build', 'team', 'with', 'type', 'and']
+PRED 15: harriet collateral build team disagreement type fillings amazing
+PRED SCORE: -8.9638
+
+SENT 16: ['you', 'he', 'from', 'my']
+PRED 16: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 17: ['how', 'it', 'when', 'stuck', 'babysitting']
+PRED 17: agreed collateral todd stuck babysitting good
+PRED SCORE: -4.7525
+
+SENT 18: ['and', 'those', 'where']
+PRED 18: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 19: ['he', 'illegal', 'dont', 'there', 'weed']
+PRED 19: regard collateral dont satanist weed lol
+PRED SCORE: -6.4095
+
+SENT 20: ['the', 'american', 'would', 'property', 'of', 'protest', 'except', 'for', 'the', 'property', 'that', 'they', 'yknow', 'that', 'with', 'the', 'tea']
+PRED 20: layouts american would property comms mags except mts samoa property innuendos tatum amazon tatum symbols tatum spec tea
+PRED SCORE: -26.1047
+
+SENT 21: ['gf']
+PRED 21: love gf
+PRED SCORE: -0.5058
+
+SENT 22: ['but']
+PRED 22: aldrin great
+PRED SCORE: -2.7080
+
+SENT 23: ['or', 'you', 'dont', 'more', 'money', 'than', 'you']
+PRED 23: daycare abbreviation dont satanist money sc aborted fallout
+PRED SCORE: -12.7930
+
+SENT 24: ['more', 'than', 'woman']
+PRED 24: agreed contain best woman
+PRED SCORE: -3.0554
+
+SENT 25: ['this', 'which', 'why', 'dont', 'it']
+PRED 25: likened collateral todd dont hesitate good
+PRED SCORE: -7.7576
+
+SENT 26: ['iphone', 'for', 'so', 'they', 'me', '...', '...', 'my', 'photo', '...']
+PRED 26: pleased iphone mundane indians lowest ankles ls ez kombat photo transitioned
+PRED SCORE: -14.1699
+
+SENT 27: ['he', 'probably', 'so', 'to', 'that', 'his', 'body']
+PRED 27: regard probably sleigh walrus seymour ls body great
+PRED SCORE: -8.3655
+
+SENT 28: ['this', 'my', 'that', 'the', 'zoom', 'in', 'sonic', 'so', 'you', 'where', 'you']
+PRED 28: layouts abbreviation todd philip rep ls sonic apc herman ratchet sponges happy
+PRED SCORE: -21.9973
+
+SENT 29: ['this', 'to', 'into', 'so', 'me']
+PRED 29: regard cox riddler philip seymour amazing
+PRED SCORE: -5.4652
+
+SENT 30: ['how', 'told', 'to', 'mix', 'experiment', 'because', 'they', 'clue', "what's", 'with', 'me']
+PRED 30: applauding told handled mix experiment jealousy pikachu blocks broad cheney innuendos awesome
+PRED SCORE: -17.9905
+
+SENT 31: ['how', 'attempt', 'to', 'canadian', 'them']
+PRED 31: regard attempt ing toyotas canadian boats lol
+PRED SCORE: -7.9686
+
+SENT 32: ['to', 'for', 'my', '6am']
+PRED 32: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 33: ['btw', 'for', 'me', 'for', '.', 'thank', 'you', 'so', 'fing']
+PRED 33: btw benadryl context philip seymour thank toilets competitive closing lol
+PRED SCORE: -11.5657
+
+SENT 34: ['.', 'when', 'of', 'in', 'the', 'morning']
+PRED 34: daggers abbreviation ee philip seymour good morning
+PRED SCORE: -7.3017
+
+SENT 35: ['you', 'guy']
+PRED 35: agreed guy love guy
+PRED SCORE: -2.2199
+
+SENT 36: ['you', 'and']
+PRED 36: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 37: ['oh', 'can', 'you', 'me', 'where', 'the', 'holy', 'that']
+PRED 37: oh bueno compiler philip ankles ankles holy rails excitement
+PRED SCORE: -9.5463
+
+SENT 38: ['this', ',', 'pres', '.', 'throat']
+PRED 38: invent visibly context philip throat amazing
+PRED SCORE: -7.9172
+
+SENT 39: ['oh', 'me', '?', '.', 'yeah', ',', 'for']
+PRED 39: oh pharmacology compiler philip yeah exited strom happy
+PRED SCORE: -10.6126
+
+SENT 40: ['when', 'my', 'and', 'at', ',', 'that']
+PRED 40: agreed cox riddler philip seymour ls amazing
+PRED SCORE: -7.0847
+
+SENT 41: ['to', 'remind', 'people', 'that', 'after', 'with', 'the', 'family', ',', 'to', 'so', 'after']
+PRED 41: applauding remind people teasers crammed admins ankles family applications kraken admins ankles great
+PRED SCORE: -17.3989
+
+SENT 42: ['...', 'my', 'nigga', 'tho', 'lol']
+PRED 42: pk collateral nigga best tho lol
+PRED SCORE: -4.6950
+
+SENT 43: ['the', 'that', 'most', 'of', 'them', 'dont']
+PRED 43: agreed cox riddler philip seymour dont happy
+PRED SCORE: -6.7359
+
+SENT 44: ['year', 'and', '.', 'to', '24/7', '.', 'thank', 'you']
+PRED 44: freshmen year darren indians lowest ankles ls thank collections happy
+PRED SCORE: -9.4788
+
+SENT 45: ['to', 'my', 'body', '.', 'of', ',', 'but']
+PRED 45: regard abbreviation body ferry tracking ls assassin amazing
+PRED SCORE: -10.5181
+
+SENT 46: ['yeah', 'because', 'the', 'to', 'conversation', 'to', 'the', 'hipster']
+PRED 46: yeah astronaut compiler philip amazing conversation cheney ez moral
+PRED SCORE: -10.9279
+
+SENT 47: ['at', 'and', 'because', 'to']
+PRED 47: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 48: ['we', 'everything', 'that', 'offends', 'you']
+PRED 48: regard everything gavin rosberg ankles happy
+PRED SCORE: -6.4327
+
+SENT 49: ['while', 'lane', 'eh']
+PRED 49: agreed lane eh lol
+PRED SCORE: -2.9461
+
+SENT 50: ['it', 'when', 'someone', 'funnier', 'than', 'the']
+PRED 50: regard cox someone funnier better oneself ls
+PRED SCORE: -7.0770
+
+SENT 51: ['so', 'that', 'my', '.', 'kinda', 'to', ',', 'kinda', 'to', 'confetti']
+PRED 51: daycare abbreviation todd philip kinda blows bugger kinda inline razors lol
+PRED SCORE: -14.0348
+
+SENT 52: ['how', 'the', 'any']
+PRED 52: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 53: ['it', 'my', 'director', 'chose', 'the', 'hardest', 'song', 'for', 'the', 'actor']
+PRED 53: daycare collateral director chose asset hardest favorite song broad hoods actor
+PRED SCORE: -10.1306
+
+SENT 54: ['the', 'math', 'and', 'if', 'coffee', 'would', 'millionaire', 'with', 'teeth']
+PRED 54: unicorn math todd cheapest coffee would handled residence apps lol
+PRED SCORE: -9.2748
+
+SENT 55: ['to', 'in', 'til', '...', '8', '...', 'and', 'write', 'my', 'paper', 'lol', '.', 'ugh']
+PRED 55: daycare contestant til godawful postal ls ls write sc paper lol colorful ugh
+PRED SCORE: -15.1215
+
+SENT 56: ['obama', 'increase']
+PRED 56: love barack obama
+PRED SCORE: -0.7031
+
+SENT 57: ['it', 'everyone', 'that', 'buzzword', 'p']
+PRED 57: likened everyone beliefs indians p lol
+PRED SCORE: -4.0236
+
+SENT 58: ['for', 'the', 'ahole']
+PRED 58: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 59: ['lol', 'the', 'to', 'for', 'my']
+PRED 59: lol hereby havnt parliament philip seymour
+PRED SCORE: -10.2572
+
+SENT 60: ['it', 'so', 'to', 'with', 'daycare', 'beside', 'your', 'house', '..', '.']
+PRED 60: daycare abbreviation todd philip bs overlooking assassin house cst kilo happy
+PRED SCORE: -13.8137
+
+SENT 61: ['that', 'money']
+PRED 61: dena free money
+PRED SCORE: -3.7429
+
+SENT 62: ['for', 'for']
+PRED 62: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 63: ['in', 'the', 'icu', 'at', 'clinicals', 'and', 'it', 'so']
+PRED 63: haunt abbreviation riddler philip seymour ls assassin moral happy
+PRED SCORE: -11.3726
+
+SENT 64: ['people']
+PRED 64: love talking people love
+PRED SCORE: -2.0218
+
+SENT 65: ['it', 'when', 'people', 'rumor', 'me']
+PRED 65: greeces abbreviation people teasers pestering good
+PRED SCORE: -7.3510
+
+SENT 66: ['people', 'who', 'pc', 'and', 'dont', 'how', 'to', 'screenshots', 'casuals']
+PRED 66: people favours pc ferry dont compare prequel ez herman good
+PRED SCORE: -12.5696
+
+SENT 67: ['english', 'so', 'would', 'english', 'than', 'math', 'bye']
+PRED 67: english statue would interesting english comms math bye
+PRED SCORE: -5.2586
+
+SENT 68: ['they', 'remake', 'comedy', 'ghostbusters', 'that', 'would', 'for']
+PRED 68: harriet csi comedy monologue unveil would tattooed lol
+PRED SCORE: -10.0248
+
+SENT 69: ['to', 'at', 'for', 'than']
+PRED 69: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 70: ['facebook', 'relationship', ':', 'your', ',', 'but', 'in', 'their', 'inbox']
+PRED 70: many facebook relationship roaming majority unveil ls assassin peas moral cheney
+PRED SCORE: -12.3847
+
+SENT 71: ['to', 'to', 'week', '-', '!']
+PRED 71: likened collateral week nl pestering good
+PRED SCORE: -6.6275
+
+SENT 72: ['maybe', 'the', 'mini', 'ice', 'so']
+PRED 72: maybe statue mini ice tera lol
+PRED SCORE: -4.0528
+
+SENT 73: ['whats', 'she', 'at', 'football', 'if', 'she', 'money']
+PRED 73: whats shi compiler football jugs seymour norris money awesome
+PRED SCORE: -9.3892
+
+SENT 74: ['to', 'my', 'and', 'whilst', 'they', 'plan', '(', '(']
+PRED 74: nonviolent abbreviation riddler leading asset plan strict moral good
+PRED SCORE: -11.6951
+
+SENT 75: ['to', 'at', '4', 'saturday']
+PRED 75: agreed helpless riddler happy saturday
+PRED SCORE: -6.4845
+
+SENT 76: ['the', 'while', 'the', 'at', 'thatll']
+PRED 76: regard cox riddler philip thatll happy
+PRED SCORE: -5.7842
+
+SENT 77: ['how', 'you', 'your', 'own', 'and', 'it']
+PRED 77: agreed cox riddler philip seymour ls amazing
+PRED SCORE: -7.0847
+
+SENT 78: ['at', 'for', 'something']
+PRED 78: fairness visibly something good
+PRED SCORE: -4.5586
+
+SENT 79: ['200', '+', 'pic', 'before', 'they', 'jpeg', 'and', 'to', 'this', '.']
+PRED 79: applauding abbreviation pic ferry lawson ls assassin ez admins volunteered happy
+PRED SCORE: -17.5489
+
+SENT 80: ['it', 'when', 'people', 'to', 'my', 'snapchats']
+PRED 80: greeces abbreviation people teasers pestering dispel happy
+PRED SCORE: -7.5855
+
+SENT 81: ['with', 'the']
+PRED 81: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 82: ['write', '3', 'page', 'in', 'the', 'morning', 'monday']
+PRED 82: write statue page philip tracking morning happy monday
+PRED SCORE: -6.1820
+
+SENT 83: ['because', 'they', 'and', 'the']
+PRED 83: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 84: ['it', 'here', 'so', 'yay', 'for', 'in', 'the']
+PRED 84: daycare abbreviation riddler yay relegated bugger ls happy
+PRED SCORE: -13.0223
+
+SENT 85: ['he', 'of']
+PRED 85: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 86: ['these', 'money', 'grows', 'tree', '!']
+PRED 86: regard money teasers tree boats lol
+PRED SCORE: -5.4920
+
+SENT 87: ['dont', 'you', 'to', 'ay', 'your']
+PRED 87: dont shi context flexibility seymour happy
+PRED SCORE: -6.5593
+
+SENT 88: ['when', 'homework', 'during', 'the', 'year', 'it']
+PRED 88: zephyr homework rendition rosberg year refine amazing
+PRED SCORE: -7.5995
+
+SENT 89: ['everything', 'happens', 'for', '"', '..', 'yeah', 'the', 'stair', 'so', 'to']
+PRED 89: sheamus everything happens pauses lowest ankles yeah exited kyoto herman cheney awesome
+PRED SCORE: -16.5597
+
+SENT 90: ['it', 'when', 'people', 'my', 'house', 'and', 'either', 'their', ',', 'or', 'rev', 'their', 'engine', '.']
+PRED 90: applauding collateral people teasers house arguably either dubbed paypal ez happy rev ceremonies clear good framework
+PRED SCORE: -18.7113
+
+SENT 91: ['christmas', 'what', 'to', 'for', 'in', 'the', 'when', 'you', 'dont', 'insurance']
+PRED 91: christmas benadryl todd herman seymour ls assassin kyoto dont compare happy
+PRED SCORE: -12.0275
+
+SENT 92: ['yay', '.', 'in', 'the']
+PRED 92: yay hostel commerce apc happy
+PRED SCORE: -4.6489
+
+SENT 93: ['but', 'yall', 'how']
+PRED 93: likened yall trucks happy
+PRED SCORE: -4.5257
+
+SENT 94: ['the']
+PRED 94: aldrin great
+PRED SCORE: -2.7080
+
+SENT 95: ['hunt', 'for']
+PRED 95: hunt coop amazing
+PRED SCORE: -4.0208
+
+SENT 96: ['it', 'or', 'mosquito', 'and', 'you', 'can', 'end', 'in', 'the']
+PRED 96: daybreak abbreviation mosquito philip seymour ankles end vr exhaustion lol
+PRED SCORE: -10.7639
+
+SENT 97: ['after', '8am', 'to', 'for', '7', '..', 'omg', 'so', 'my', 'at']
+PRED 97: applauding abbreviation riddler philip seymour ls omg pushing exhaustion ankles lol
+PRED SCORE: -14.1736
+
+SENT 98: ['and', 'at', 'for', 'something', 'that', 'of', 'myself']
+PRED 98: daycare abbreviation context something awesome dresser seduction ez
+PRED SCORE: -11.7499
+
+SENT 99: ['if', 'that', 'the', 'can', 'my', 'tax', 'money']
+PRED 99: nikolai collateral riddler philip seymour tax money happy
+PRED SCORE: -7.0275
+
+SENT 100: ['so', 'gunna', 'puke']
+PRED 100: sardines gunna panty happy
+PRED SCORE: -4.3894
+
+SENT 101: ['my', 'hair', 'and', 'this', 'mix']
+PRED 101: pk hair closets rosberg mix lol
+PRED SCORE: -5.6314
+
+SENT 102: ['in', 'the', 'hall', 'while', 'people', 'and', 'loner']
+PRED 102: dumbledore abbreviation hall slush people waaay happy suitcase
+PRED SCORE: -11.1645
+
+SENT 103: ['you', 'to', 'but', 'you']
+PRED 103: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 104: ['into', 'at', '4:30', 'in', 'the', 'morning', 'it', 'tobe', 'along']
+PRED 104: hedge abbreviation riddler philip seymour morning tours tray along good
+PRED SCORE: -11.8690
+
+SENT 105: ['you', 'when', 'people', 'into']
+PRED 105: pk abbreviation good people teasers
+PRED SCORE: -7.2454
+
+SENT 106: ['schedule', 'and', 'it', '!']
+PRED 106: many mostly schedule marketable figurines lowest
+PRED SCORE: -6.7733
+
+SENT 107: ['rt', 'if', 'you', 'to', 'rumor', 'quickly', 'your', 'girlfriend', 'to', 'anyone', 'it']
+PRED 107: rt abbreviation riddler lowest seymour quickly ez girlfriend facetime anyone micheal good
+PRED SCORE: -10.4111
+
+SENT 108: ['me', 'it', 'so']
+PRED 108: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 109: ['any', 'homework', '&', 'to', '!', 'lol', '!', ':)', ')', ')', ')']
+PRED 109: applauding homework knights lowest seymour lol colorful kyoto kombat proved innuendos innuendos
+PRED SCORE: -18.5982
+
+SENT 110: ['to', 'you', '.']
+PRED 110: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 111: ['when', 'my', 'family', 'decides', 'to', 'at', 'the', '&', 'the', 'and', 'the']
+PRED 111: applauding abbreviation best family decides majority alum ls ls moral kyoto small
+PRED SCORE: -18.5351
+
+SENT 112: ['in', 'my', 'car', 'during', 'this', '.', 'tho']
+PRED 112: daycare abbreviation car grounded chemically ls tho good
+PRED SCORE: -8.8905
+
+SENT 113: ['if', '"', 'it', 'to', ',', '"', 'it', 'because', 'those', 'literally', 'my', 'plan']
+PRED 113: layouts collateral todd philip seymour ls assassin ez protocol literally scanner plan sicily
+PRED SCORE: -18.9472
+
+SENT 114: ['and', 'city', 'council']
+PRED 114: octane city shark happy
+PRED SCORE: -4.1850
+
+SENT 115: ['spending', 'your', 'money', 'in', 'and', 'this', 'happens']
+PRED 115: spending attempted money finance boats ls best happens
+PRED SCORE: -7.8858
+
+SENT 116: ['49', '%', 'of', 'this', 'the', 'exam', '.', '"', "that's", 'how', 'of', 'math', 'professor']
+PRED 116: applauding abbreviation riddler philip seymour exam dealership bugger herman colleague ls math professor great
+PRED SCORE: -17.7389
+
+SENT 117: ['so', 'because', 'someone', 'told', 'you', 'so', 'it', 'it', 'to', 'and']
+PRED 117: daybreak abbreviation someone told fedora ls assassin peas herman proved great
+PRED SCORE: -15.9576
+
+SENT 118: ['to', 'at', '12:30', 'to', 'puke', '...', 'my', 'throat']
+PRED 118: haunt chivalry riddler philip seymour ls ls throat good
+PRED SCORE: -9.4556
+
+SENT 119: ['because', 'we', 'money', 'your', 'and', 'can', 'at']
+PRED 119: regard abbreviation money finance dfw ls assassin amazing
+PRED SCORE: -10.5803
+
+SENT 120: ['when', 'you', 'of', 'of', 'people', 'money', 'it', 'probably', 'that']
+PRED 120: harriet abbreviation riddler philip people owed money wetting probably improved lol
+PRED SCORE: -9.4826
+
+SENT 121: ['canadian', 'here', 'it', 'when', 'american', 'and']
+PRED 121: impressive canadian childlike figurines philip frustrated american scanner
+PRED SCORE: -9.5912
+
+SENT 122: ['and', 'to', 'exam', ',', 'what', 'combination']
+PRED 122: affleck abbreviation exam grounded dfw combination amazing
+PRED SCORE: -7.7711
+
+SENT 123: ['the', 'faster', 'than', 'the', 'speed', 'of', 'the', 'speed', 'in', 'which', 'my', 'money']
+PRED 123: selma faster parliament lowest speed ls ez speed feeders cheney transitioned money great
+PRED SCORE: -14.2175
+
+SENT 124: ['my', 'wallet', 'me', 'for', 'mac', 'user']
+PRED 124: regard wallet riddler philip mac user better
+PRED SCORE: -5.9016
+
+SENT 125: ['end', 'to', 'carter', '!']
+PRED 125: cheered nice end gin bust lowest
+PRED SCORE: -7.8069
+
+SENT 126: ['at', '3am', 'with', 'to', 'to']
+PRED 126: regard cox riddler philip seymour amazing
+PRED SCORE: -5.4652
+
+SENT 127: ['to', 'when', 'someone', 'the', 'your', 'carpet', 'and', 'your', '!']
+PRED 127: dumbledore abbreviation someone gavin waaaay hoffman ls rails herman good
+PRED SCORE: -15.3379
+
+SENT 128: [',', 'hotmail', ',', 'for', 'me', 'from', 'my', 'own', '.', 'so']
+PRED 128: applauding abbreviation todd philip seymour ls assassin moral moral cheney good
+PRED SCORE: -17.0517
+
+SENT 129: ['with', 'my']
+PRED 129: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 130: ['because', 'most', 'american', 'dont', 'to', 'their', 'money', 'to', 'drug', 'addict', 'and', 'lazy', 'to']
+PRED 130: harriet collateral american dont hesitate comms money finance drug beautiful purple proved lazy tatum
+PRED SCORE: -12.7193
+
+SENT 131: ['this', 'how', 'for', 'and']
+PRED 131: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 132: ['to', 'my', 'girlfriend', 'because', 'she', 'but', 'she', '...', 'so', 'we']
+PRED 132: daybreak contestant girlfriend reggae crammed ankles ankles ls rails kyoto good
+PRED SCORE: -15.0812
+
+SENT 133: ['my', 'include', 'and', 'in', 'with', 'people', 'that', 'me']
+PRED 133: dumbledore include anticlimactic philip seymour people teasers suitcase happy
+PRED SCORE: -8.1807
+
+SENT 134: ['driver', 'who', 'during', 'what', 'you']
+PRED 134: driver switches context philip seymour amazing
+PRED SCORE: -3.2805
+
+SENT 135: ['bottle', 'in', 'my', ',', 'to']
+PRED 135: free bottle childlike figurines philip seymour
+PRED SCORE: -4.4569
+
+SENT 136: ['when', 'people', 'me', ':)', 'jk']
+PRED 136: greeces people teasers indians jk lol
+PRED SCORE: -5.2821
+
+SENT 137: ['how', 'american', 'everyone']
+PRED 137: congress american everyone great
+PRED SCORE: -3.1420
+
+SENT 138: ['after']
+PRED 138: aldrin great
+PRED SCORE: -2.7080
+
+SENT 139: ['for', 'the', 'and', '(']
+PRED 139: digital cox context philip amazing
+PRED SCORE: -6.0530
+
+SENT 140: ['shhhh', 'to', 'our', 'gun', 'anymore', 'along']
+PRED 140: nikolai collateral todd great gun anymore along
+PRED SCORE: -4.9413
+
+SENT 141: ['in', 'with', 'the', 'most', 'tsundere', 'the']
+PRED 141: agreed cox riddler philip seymour ls amazing
+PRED SCORE: -7.0847
+
+SENT 142: ['when', 'my', 'boyfriend', 'remembers', 'me', 'after', 'the', 'and', 'his']
+PRED 142: applauding abbreviation boyfriend niro concern ankles assassin assassin admins good
+PRED SCORE: -15.3153
+
+SENT 143: ['would', 'to', 'people', 'money']
+PRED 143: would photon people flaunt money
+PRED SCORE: -1.3051
+
+SENT 144: ['your', 'to', 'puke', 'after', ',', 'skateboard']
+PRED 144: agreed cox riddler philip seymour ls amazing
+PRED SCORE: -7.0847
+
+SENT 145: ['the', 'of', 'the', 'television', '!', 'to']
+PRED 145: regard cox riddler television seymour ls happy
+PRED SCORE: -7.4946
+
+SENT 146: ['someone', 'can', 'your', 'car', 'laptop', 'computer']
+PRED 146: someone statue knights car laptop computer awesome
+PRED SCORE: -4.2374
+
+SENT 147: ['yep', 'should', 'decide']
+PRED 147: yep hostel decide free
+PRED SCORE: -1.2593
+
+SENT 148: ['you', 'would', 'gotten']
+PRED 148: hater would gotten lol
+PRED SCORE: -3.2837
+
+SENT 149: ['guy', 'but', 'yourself']
+PRED 149: family guy frightened guild good
+PRED SCORE: -5.4353
+
+SENT 150: ['it', '.', 'my', 'math', 'textbook', 'of', 'someone', 'themselves', 'it', '.', 'myself', 'at']
+PRED 150: harriet maids todd math seymour ls someone inline residence proved trays tatum good
+PRED SCORE: -18.2814
+
+SENT 151: ['that', 'the', 'in', 'schindlers', 'list']
+PRED 151: backstabbing cox riddler philip list good
+PRED SCORE: -8.4430
+
+SENT 152: ['3', 'in', '...', 'body', 'you']
+PRED 152: regard abbreviation todd body feeds happy
+PRED SCORE: -8.7835
+
+SENT 153: ['who', 'text', 'me', 'niece', 'or', 'how', 'he', '!', 'it']
+PRED 153: applauding text illiterate niece herman ankles assassin ez admins happy
+PRED SCORE: -15.0619
+
+SENT 154: ['in', 'mood', 'and', 'someone', 'it', '.']
+PRED 154: firsttime mood todd someone wrong edt amazing
+PRED SCORE: -10.2703
+
+SENT 155: ['it', 'and', 'our']
+PRED 155: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 156: ['to', 'everyone', 'who', 'to', 'me', '..']
+PRED 156: daycare everyone beliefs crammed thorns ankles happy
+PRED SCORE: -6.9075
+
+SENT 157: ['5', 'between', 'the', 'across', 'campus', 'from', 'each', 'af']
+PRED 157: dumbledore contestant riddler across campus ls appreciating melee nice
+PRED SCORE: -11.8131
+
+SENT 158: ['in', 'my', 'apartment', 'so', 'thats', 'haha']
+PRED 158: pk collateral apartment sticker thats happy haha
+PRED SCORE: -7.1214
+
+SENT 159: ['almost', 'the', 'to', 'the', 'diff', 'eq', 'exam', '=', 'omen']
+PRED 159: almost astronaut anticlimactic lowest seymour ls exam dealership torture good
+PRED SCORE: -10.6562
+
+SENT 160: ['more', 'than', 'the']
+PRED 160: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 161: ['you', 'person', 'how', 'you']
+PRED 161: agreed sexy person marketable philip
+PRED SCORE: -4.5032
+
+SENT 162: ['my', 'wallet', 'this', 'morning', 'what', 'to', 'my']
+PRED 162: greeces wallet phillipines good morning gradually competitive population
+PRED SCORE: -9.1357
+
+SENT 163: ['cooking', 'cleaning', 'the', 'kitchen', 'afterwards']
+PRED 163: cooking cleaning deer kitchen flawless afterwards
+PRED SCORE: -3.7723
+
+SENT 164: ['refund', 'and', 'involves', '.', ',', 'again', '.', '/']
+PRED 164: confirmed clothing boxer figurines lowest seymour ls strict moral happy
+PRED SCORE: -12.6100
+
+SENT 165: ['oreo', 'longer', 'than', 'woman', 'to']
+PRED 165: likened longer todd woman considerably beautiful
+PRED SCORE: -6.4349
+
+SENT 166: ['you', 'to', 'your', 'for', 'lesson', 'in', 'nyc']
+PRED 166: regard collateral todd philip lesson venus nyc amazing
+PRED SCORE: -9.6439
+
+SENT 167: ['and', 'gasoline', 'the', 'ex', 'ceo', 'because', 'company', 'at', 'and']
+PRED 167: harriet abbreviation riddler ex seymour ls good company applications hoods
+PRED SCORE: -10.3802
+
+SENT 168: ['how', 'my', 'foot', '.', 'lol']
+PRED 168: likened pitfalls foot sai lol lol
+PRED SCORE: -6.5359
+
+SENT 169: ['mcm', ':)', 'it', 'me']
+PRED 169: nice sunshine introduced childlike figurines lowest
+PRED SCORE: -6.3469
+
+SENT 170: ['in', 'of', 'the', 'that', 'launch']
+PRED 170: regard cox riddler philip launch happy
+PRED SCORE: -5.8184
+
+SENT 171: ['that', 'when', 'your', 'plan', 'in', 'of', 'you', ',', 'and', 'the', 'plan', 'include', 'you']
+PRED 171: fizzy abbreviation todd plan ul ls ls moral foe proved plan sicily tatum foe
+PRED SCORE: -23.9521
+
+SENT 172: ['to', 'me', 'how', 'would', 'to', 'hear', 'your']
+PRED 172: daggers collateral riddler would pledges hear applications good
+PRED SCORE: -10.0506
+
+SENT 173: ['deli', '!']
+PRED 173: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 174: ['my', 'at', 'blah', 'f', 'ml', 'me']
+PRED 174: regard collateral blah f naturally beautiful lungs
+PRED SCORE: -7.3437
+
+SENT 175: ['to', 'whoever', 'my', 'car', ',', 'her', '!', 'you']
+PRED 175: dumbledore whoever surgeon car exploding amazing oneself ez ez protocol
+PRED SCORE: -12.9317
+
+SENT 176: ['to', 'my', 'me']
+PRED 176: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 177: ['yeah', 'it', 'colder', 'since', 'it']
+PRED 177: yeah catfish todd since disappoints good
+PRED SCORE: -6.1759
+
+SENT 178: ['why', 'email', 'since', '7:30', '?', 'monday', '.']
+PRED 178: unbelievers email since pyro chemically monday considerably happy
+PRED SCORE: -10.1285
+
+SENT 179: ['when', 'the', 'in', 'the', 'building', 'in', '...', 'and', 'it', '...', 'my']
+PRED 179: regard abbreviation todd philip building nevada ls rails ic proved sponges great
+PRED SCORE: -21.0733
+
+SENT 180: ['of', 'how', 'money', 'you']
+PRED 180: hater cox happy money finance
+PRED SCORE: -7.4727
+
+SENT 181: ['5', 'weekend', 'with', 'appointment', ',', 'xrays', 'and', 'injection', '..']
+PRED 181: brandis weekend determines appointment bs ankles ls assassin admins happy
+PRED SCORE: -12.5070
+
+SENT 182: ['you', 'you', 'can', 'your', 'setting', 'in', 'the', 'panel']
+PRED 182: regard abbreviation riddler philip setting ankles ls panel great
+PRED SCORE: -10.4136
+
+SENT 183: ['my', 'to', 'me']
+PRED 183: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 184: ['at', 'the', 'office']
+PRED 184: gma visibly office good
+PRED SCORE: -5.1140
+
+SENT 185: ['she', 'this', 'knew', 'she', 'but', 'didnt', 'she', 'that']
+PRED 185: daybreak collateral knew bombarded boats didnt dealership utopia better
+PRED SCORE: -11.2015
+
+SENT 186: ['he', 'he', 'so']
+PRED 186: digital visibly todd good
+PRED SCORE: -4.2632
+
+SENT 187: ['for', 'yourself']
+PRED 187: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 188: ['and', 'we', 'afford', 'to', 'student', 'debt']
+PRED 188: daycare helpless sword philip haley mobile free divulge
+PRED SCORE: -11.3078
+
+SENT 189: ['!']
+PRED 189: aldrin great
+PRED SCORE: -2.7080
+
+SENT 190: ['the']
+PRED 190: aldrin great
+PRED SCORE: -2.7080
+
+SENT 191: ['ahh', 'it', 'me', 'and', 'when', 'you', 'text', 'me', '!']
+PRED 191: ahh erased context philip seymour ls text intensive foe proud
+PRED SCORE: -9.4842
+
+SENT 192: ['myself', '!']
+PRED 192: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 193: ['forbidden', 'here']
+PRED 193: forbidden conrad love
+PRED SCORE: -2.5807
+
+SENT 194: ['so']
+PRED 194: aldrin great
+PRED SCORE: -2.7080
+
+SENT 195: ['after', 'weekend', 'of', 'and', '.']
+PRED 195: likened weekend determines pestering philip best
+PRED SCORE: -8.1341
+
+SENT 196: ['the', '!']
+PRED 196: macdonalds contain great
+PRED SCORE: -2.9393
+
+SENT 197: ['in', 'relationship', '.', 'my', "girlfriend's", 'in', 'the']
+PRED 197: dewey relationship amazing love liner violets kidney ls riddick
+PRED SCORE: -11.1344
+
+SENT 198: ['id', 'to', 'france', 'but', 'to', 'capitalism', 'afford', 'it']
+PRED 198: id photon france vernon ankles ankles penguin moral good
+PRED SCORE: -7.9292
+
+SENT 199: ['with', 'that', 'people', 'the', 'and', 'it']
+PRED 199: greeces abbreviation people teasers pestering dispel happy
+PRED SCORE: -7.5855
+PRED AVG SCORE: -1.1605, PRED PPL: 3.1914

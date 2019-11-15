@@ -1,0 +1,2 @@
+model_checkpoint_path: "/dccstor/cssblr/parag/abhijit/SarcasmGAN/Sarcasm-Detection/models/tf_attention/"
+all_model_checkpoint_paths: "/dccstor/cssblr/parag/abhijit/SarcasmGAN/Sarcasm-Detection/models/tf_attention/"

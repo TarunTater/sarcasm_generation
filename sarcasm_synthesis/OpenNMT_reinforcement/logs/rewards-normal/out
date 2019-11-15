@@ -1,0 +1,45 @@
+Sarcasm Detection Model Restored
+
+------------------------------------------------------------
+Sender: LSF System <rer@dccxc165>
+Subject: Job 1711063: <python train.py -data data/splits/sarcasm -save_model rewards_model_normal -world_size 1 -train_steps 500000 -save_checkpoint_steps 50000 -gpu_ranks 0> in cluster <dcc> Exited
+
+Job <python train.py -data data/splits/sarcasm -save_model rewards_model_normal -world_size 1 -train_steps 500000 -save_checkpoint_steps 50000 -gpu_ranks 0> was submitted from host <dccxc001> by user <abhijimi> in cluster <dcc> at Mon Aug 26 05:06:11 2019
+Job was executed on host(s) <dccxc165>, in queue <x86_24h>, as user <abhijimi> in cluster <dcc> at Mon Aug 26 05:06:13 2019
+</u/abhijimi> was used as the home directory.
+</dccstor/cssblr/abhijit/abhijit/SarcasmGAN/seq2seq_rl/OpenNMT_reinforcement> was used as the working directory.
+Started at Mon Aug 26 05:06:13 2019
+Terminated at Tue Aug 27 05:06:12 2019
+Results reported at Tue Aug 27 05:06:12 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python train.py -data data/splits/sarcasm -save_model rewards_model_normal -world_size 1 -train_steps 500000 -save_checkpoint_steps 50000 -gpu_ranks 0
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   86345.52 sec.
+    Max Memory :                                 2312 MB
+    Average Memory :                             2276.57 MB
+    Total Requested Memory :                     162816.00 MB
+    Delta Memory :                               160504.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                28
+    Run time :                                   86422 sec.
+    Turnaround time :                            86401 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <logs/rewards-normal/err> for stderr output of this job.
+
